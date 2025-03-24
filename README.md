@@ -1,2 +1,2 @@
 # portfolio-website
-A digital showcase of my skills, projects, and creative journey! Built with HTML, CSS, and JavaScript, this portfolio reflects my passion for web development. Explore my work, get to know me, and let's connect! Hosted with  on GitHub Pages
+A dynamic and interactive portfolio showcasing my journey as a web developer. Built with HTML, CSS, Bootstrap, and Basic JavaScript, this website highlights my skills, education, and projects. Designed for a seamless user experience, it reflects my passion for technology and innovation. Explore my work and let's connect! Hosted with ❤️ on GitHub Pages
