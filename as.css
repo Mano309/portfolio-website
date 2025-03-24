@@ -1,0 +1,188 @@
+/* Education Section */
+#education {
+    background: linear-gradient(135deg, #283c86, #45a247);
+}
+#education:hover {
+    background: linear-gradient(135deg, #2e448e, #50b252);
+    box-shadow: 0px 0px 30px rgba(69, 162, 71, 0.6);
+}
+
+.education-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+}
+
+.education-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+/* Home Section */
+#home {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    text-align: center;
+    padding: 100px 0;
+    color: white;  /* Ensure text is visible */
+}
+
+#home h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+}
+
+#home:hover {
+    background: linear-gradient(135deg, #14262d, #264857, #345d73);
+    box-shadow: 0px 0px 30px rgba(44, 83, 100, 0.6);
+}
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #121212, #1e1e1e); /* Dark professional theme */
+    color: #f8f9fa;
+    transition: background 0.3s, color 0.3s;
+    padding-top: 60px;
+    min-height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: rgba(0, 0, 0, 0.85) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navbar a {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #ffcc00 !important;
+}
+
+/* Section Styling */
+.section {
+    padding: 80px 0;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    text-align: center;
+}
+#home:hover {
+    background: linear-gradient(135deg, #14262d, #264857, #345d73);
+    box-shadow: 0px 0px 30px rgba(44, 83, 100, 0.6);
+}
+
+/* About Section */
+#about {
+    background: linear-gradient(135deg, #232526, #414345);
+}
+#about:hover {
+    background: linear-gradient(135deg, #2b2d2e, #515355);
+    box-shadow: 0px 0px 30px rgba(65, 67, 69, 0.6);
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+#skills:hover {
+    background: linear-gradient(135deg, #233f78, #2e58a5);
+    box-shadow: 0px 0px 30px rgba(42, 82, 152, 0.6);
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(135deg, #3e5151, #decba4);
+    color: #121212;
+}
+#contact:hover {
+
+    background: linear-gradient(135deg, #475958, #e3d4b1);
+    box-shadow: 0px 0px 30px rgba(222, 203, 164, 0.6);
+}
+
+/* Section Titles */
+.section h2 {
+    font-weight: 600;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+}
+.section:hover h2 {
+    transform: scale(1.08);
+    color: #ffcc00;
+}
+
+/* Profile Image */
+.profile-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50%;
+}
+.profile-img:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Button Styling */
+.btn-light {
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-light:hover {
+    background-color: #e6b800;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.6);
+}
+
+/* Card Styles */
+.card {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Progress Bars */
+.progress {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 8px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    
+}
